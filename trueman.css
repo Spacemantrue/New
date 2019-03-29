@@ -1,0 +1,340 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans");
+
+.body{
+  height: 100%;
+
+
+}
+.container-fluid{
+  margin: 0px;
+  padding: 0px;
+}
+.nav-menu {
+  margin: 0px auto;
+  max-width: 600px;
+  background-color: yellow;
+  min-height: 120px;
+}
+#navbar {
+  margin-top: 0;
+  min-height: 120px;
+  transition: top 1s;
+  padding: 0px;
+  background-color: rgb(251, 255, 0) !important;
+}
+.bg-light {
+  background-color: transparent !important;
+}
+.navbar-brand {
+  height: 100px;
+  background-size: cover;
+  padding-right: 150px;
+  background-image: url(img/t_man_black.png);
+  background-size: cover;
+}
+.nav-link {
+  font-size: 11px;
+  font-weight: none;
+  font-weight: 0;
+  font-family: sans-serif;
+  color: black !important;
+  border-bottom: 1.5px solid transparent;
+  padding-right: .5rem;
+}
+.nav-link:hover {
+  border-bottom: 1.5px solid rgb(0, 0, 0);
+  transition: all 1s;
+}
+
+.grid{
+  background-image: url(img/its.jpg);
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+}
+.growth{
+  color: white;
+  font-size: 5vw;
+  font-family: sans-serif;
+  font-weight: 1000;
+   text-align: center;
+   position: relative;
+   top: 50%;
+   transform: translateY(-50%);
+
+   }
+   .getdone{
+    color: white;
+    font-size: 5vw;
+    font-family: sans-serif;
+    font-weight: 1000;
+     text-align: left;
+     position: relative;
+     top: 50%;
+     transform: translateY(-50%);
+     }
+
+.carousel-caption{
+  top: 50%;
+  transform: translateY(-50%);
+
+}
+.d-block{
+  height: 100vh;
+}
+.cemel{
+  background-image: url(img/cemel1.jpg);
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+}
+
+.services{
+  min-height: 100vh;
+  margin: 0;
+  }
+.servicestxt{
+  color: black;
+  font-weight: 800;
+  font-size: 1em;
+  background-color: yellow;
+padding-left: 50px;
+height: 60px;
+padding-top: 15px;
+}
+#portfolio{
+height: 100vh;
+  background-color: rgb(34, 49, 47);
+}
+.load{
+  text-align: center;
+  padding-top: 400px;
+}
+.loader{
+position: relative;
+  left: 50%;
+
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border: 16px solid transparent;
+  border-radius: 50%;
+  border-top: 16px solid yellow;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+
+.col-sm-3 {
+  background-color: none;
+vertical-align: center;
+height: auto;
+max-height: 100vh;
+padding-top: 90px;
+
+}
+.col-sm-6{
+  min-height: 100vh;
+}
+/* .col-sm-3:hover{
+  background-color: rgb(247, 247, 247);
+  transition: all 0.8s;
+} */
+.reimg{
+  padding-top: 35px;
+  margin: 0px;
+}
+
+.respimage {
+  padding-top: 0px;
+  height: 200px;
+  width: 230px;
+  background-image: url(img/responsive.png);
+  background-repeat: no-repeat;
+  margin: 0px auto;
+  background-position: center;
+}
+.designlamp{
+  padding-top: 0px;
+  height: 200px;
+  width: 230px;
+  background-image: url(img/designlamp.png);
+  background-repeat: no-repeat;
+  margin: 0px auto;
+  background-size: cover;
+  background-position: center;
+}
+.structure{
+  padding-top: 0px;
+  height: 200px;
+  width: 230px;
+  background-image: url(img/structure.png);
+  background-repeat: no-repeat;
+  margin: 0px auto;
+  background-position: center;
+}
+.imgprint{
+  padding-top: 0px;
+  height: 200px;
+  width: 230px;
+  background-image: url(img/print.png);
+  background-repeat: no-repeat;
+  margin: 0px auto;
+  background-position: center;
+}
+.text .txt{
+  min-height: 250px;
+}
+.txt {
+  display: flex;
+  padding: 30px;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 14px;
+}
+
+h5 {
+  padding-top: 15px;
+  text-align: center;
+  margin: 0px auto;
+  padding-bottom: 15px;
+}
+p {
+  margin: 0px auto;
+}
+
+.aboutUs{
+  height: 100vh;
+  }
+.text{
+  background-color: white;
+  padding-right: 75px;
+  padding-left: 75px;
+  font-family: sans-serif;
+  font-size: 13.5px;
+  padding-top: 175px;
+  max-height: 100vh;
+  min-width: auto;
+
+}
+h2{
+  font-weight: 1000;
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+.about{
+  background-image: url(img/aboutpic.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  background-color: aqua;
+}
+.contact{
+  background-color: rgb(219, 219, 219);
+  max-height: 100vh;
+}
+
+
+.nav-footer{
+  color: white;
+  margin: 0px, auto;
+}
+.footerNav{
+  color: beige;
+}
+.office{
+  height: 100px;
+}
+.contact{
+min-height: 500px;
+}
+.form{
+  padding-left: 50px;
+  padding-top: 50px;
+}
+.inputAddress2{
+  height: 50px;
+}
+
+#label{
+  color: white;
+}
+.zizi{
+  padding-top: 80px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.contact-sensei{
+padding-left: 80px;
+}
+.contact-picture{
+  background-image: url(img/tourist.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.footer-menu{
+  margin: 0px auto;
+
+}
+.contact-picture{
+  background-color: violet;
+}
+#footer{
+  background-color: rgb(41, 56, 48);
+  color: white;
+
+}
+.footer-link {
+  font-size: 11px;
+  font-family: sans-serif;
+  color: rgb(255, 255, 255) !important;
+  /* border-bottom: 1.5px solid transparent; */
+  padding-right: .5rem;
+  padding-left: .5rem;
+  margin: 0px auto;
+  text-decoration: none;
+}
+
+.footer{
+  min-height: 80px;
+  background-color: rgb(46, 71, 61);
+  color: white;
+}
+.footerMenu{
+  margin: 0px auto;
+  max-width: 500px;
+  height: 80px;
+  text-align: center;
+}
+.lfootercol{
+  font-size: 11px;
+  font-weight: none;
+  font-weight: px;0;
+  font-family: sans-serif;
+  text-align: right;
+}
+.mfootercol{
+  font-size: 11px;
+  font-weight: none;
+  font-weight: 0;
+  font-family: sans-serif;
+  text-align: center;
+  padding-left: 20px;
+}
+.footer-link{
+color: orange;
+}
+/* .footer-link:hover {
+  border-bottom: 1.5px solid rgb(255, 255, 255);
+  transition: all 1s;
+  line-height: 1.5px; */
+}
+.container .cards{
+padding-top: 120px;
+}
